@@ -10,7 +10,7 @@ PLEASE DO NOT UPDATE THIS FILE, UPDATE CONTENTS.JSON INSTEAD. THANK YOU :-)
 
 | Awesome | Projects | Updated
 | :-: | :-: | :-:
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) | 28 | November 21, 2021
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) | 27 | November 21, 2021
 
 ### Contents
 
@@ -28,14 +28,14 @@ PLEASE DO NOT UPDATE THIS FILE, UPDATE CONTENTS.JSON INSTEAD. THANK YOU :-)
 - [Bluetooth](#bluetooth)
 - [Serializer](#serializer)
 
-## Guides
-*An awesome list of Kotlin Multiplatform related guides.* 
-* [Official Guide](https://kotlinlang.org/lp/mobile/) - The reference guide for Kotlin Multiplatform Mobile development by Jetbrains
+## Architecture
+*Architecture libraries.* 
+* [Moko MVVM](https://github.com/icerockdev/moko-mvvm) - Model-View-ViewModel architecture components for mobile (android & ios) Kotlin Multiplatform development.
+* [MVI Kotlin](https://github.com/arkivanov/MVIKotlin) - Extendable MVI framework for Kotlin Multiplatform.
 
-## Dependency Injection
-*DI related libraries.* 
-* [kodein](https://github.com/Kodein-Framework/Kodein-DI) -  Painless Kotlin Dependency Injection 
-* [koin](https://github.com/InsertKoinIO/koin) - A pragmatic lightweight dependency injection framework
+## Bluetooth
+*Bluetooth related libraries.* 
+* [Blue Falcon](https://github.com/Reedyuk/blue-falcon) - A Bluetooth kotlin multiplatform library for iOS and Android.
 
 ## Database
 *Database related libraries.* 
@@ -48,36 +48,18 @@ PLEASE DO NOT UPDATE THIS FILE, UPDATE CONTENTS.JSON INSTEAD. THANK YOU :-)
 * [sqldelight](https://github.com/cashapp/sqldelight) - Generates typesafe Kotlin APIs from SQL
 * [SQLiter](https://github.com/touchlab/SQLiter) - Minimal multiplatform sqlite library.
 
+## Dependency Injection
+*DI related libraries.* 
+* [kodein](https://github.com/Kodein-Framework/Kodein-DI) -  Painless Kotlin Dependency Injection 
+* [koin](https://github.com/InsertKoinIO/koin) - A pragmatic lightweight dependency injection framework
+
 ## Extension
 *Extensions helpers libraries.* 
 * [Splitties](https://github.com/LouisCAD/Splitties) - A collection of hand-crafted extensions for your Kotlin projects.
 
-## Reactive programming
-*Reactive programming libraries.* 
-* [Reaktive](https://github.com/badoo/Reaktive) - Kotlin multi-platform implementation of Reactive Extensions.
-
-## Architecture
-*Architecture libraries.* 
-* [Moko MVVM](https://github.com/icerockdev/moko-mvvm) - Model-View-ViewModel architecture components for mobile (android & ios) Kotlin Multiplatform development.
-* [MVI Kotlin](https://github.com/arkivanov/MVIKotlin) - Extendable MVI framework for Kotlin Multiplatform.
-
-## Testing
-*Testing related libraries.* 
-* [Atrium](https://github.com/robstoll/atrium) -  A multiplatform assertion library for Kotlin.
-* [Kotest](https://github.com/kotest/kotest) - Powerful, elegant and flexible test framework for Kotlin with additional assertions, property testing and data driven testing.
-
-## Routing
-*Routing related libraries.* 
-* [Kompass](https://github.com/sellmair/kompass) - Kotlin Multiplatform Router for Android and iOS.
-
-## UI
-*UI related libraries.* 
-* [Multiplatform Compose](https://github.com/cl3m/multiplatform-compose) - A Kotlin library to use Jetpack Compose in Android and iOS. Allow to write UI for both in Kotin.
-
-## Network
-*Network related libraries.* 
-* [Ktor](https://github.com/ktorio/ktor) - Framework for quickly creating connected applications in Kotlin with minimal effort.
-* [RSocket Kotlin](https://github.com/rsocket/rsocket-kotlin) - RSocket Kotlin multi-platform implementation.
+## Guides
+*An awesome list of Kotlin Multiplatform related guides.* 
+* [Official Guide](https://kotlinlang.org/lp/mobile/) - The reference guide for Kotlin Multiplatform Mobile development by Jetbrains
 
 ## Logging
 *Logging related libraries.* 
@@ -85,14 +67,31 @@ PLEASE DO NOT UPDATE THIS FILE, UPDATE CONTENTS.JSON INSTEAD. THANK YOU :-)
 * [Kermit](https://github.com/touchlab/Kermit) - A Kotlin Multiplatform centralized logging utility.
 * [Napier](https://github.com/AAkira/Napier) - Logging library for Kotlin Multiplatform.
 
-## Bluetooth
-*Bluetooth related libraries.* 
-* [Blue Falcon](https://github.com/Reedyuk/blue-falcon) - A Bluetooth kotlin multiplatform library for iOS and Android.
-* [Blue Falcon](https://github.com/Reedyuk/blue-falcon) - A Bluetooth kotlin multiplatform library for iOS and Android.
+## Network
+*Network related libraries.* 
+* [Ktor](https://github.com/ktorio/ktor) - Framework for quickly creating connected applications in Kotlin with minimal effort.
+* [RSocket Kotlin](https://github.com/rsocket/rsocket-kotlin) - RSocket Kotlin multi-platform implementation.
+
+## Reactive programming
+*Reactive programming libraries.* 
+* [Reaktive](https://github.com/badoo/Reaktive) - Kotlin multi-platform implementation of Reactive Extensions.
+
+## Routing
+*Routing related libraries.* 
+* [Kompass](https://github.com/sellmair/kompass) - Kotlin Multiplatform Router for Android and iOS.
 
 ## Serializer
 *Serializer related libraries.* 
 * [Kotlinx.serialization](https://github.com/Kotlin/kotlinx.serialization) - Kotlin multiplatform / multi-format serialization.
+
+## Testing
+*Testing related libraries.* 
+* [Atrium](https://github.com/robstoll/atrium) -  A multiplatform assertion library for Kotlin.
+* [Kotest](https://github.com/kotest/kotest) - Powerful, elegant and flexible test framework for Kotlin with additional assertions, property testing and data driven testing.
+
+## UI
+*UI related libraries.* 
+* [Multiplatform Compose](https://github.com/cl3m/multiplatform-compose) - A Kotlin library to use Jetpack Compose in Android and iOS. Allow to write UI for both in Kotin.
 
 
 ### Contributing
