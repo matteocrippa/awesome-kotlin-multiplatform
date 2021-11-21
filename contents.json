@@ -1,18 +1,242 @@
 {
-    "title": "Awesome Kotlin Multiplatform",
-    "header": "# Awesome Kotlin Multiplatform\n \n<!-- \n\nPLEASE DO NOT UPDATE THIS FILE, UPDATE CONTENTS.JSON INSTEAD. THANK YOU :-)\n\n -->\n\n",
-    "header_contributing": "Please take a quick look at the [contribution guidelines](.github/CONTRIBUTING.md) first. If you see a package or project here that is no longer maintained or is not a good fit, please submit a pull request to improve this file. Thank you to all [contributors](https://github.com/matteocrippa/awesome-kotlin-multiplatform/graphs/contributors); you rock!!",
-    "categories": [{
+  "title": "Awesome Kotlin Multiplatform",
+  "header": "# Awesome Kotlin Multiplatform\n \n<!-- \n\nPLEASE DO NOT UPDATE THIS FILE, UPDATE CONTENTS.JSON INSTEAD. THANK YOU :-)\n\n -->\n\n",
+  "header_contributing": "Please take a quick look at the [contribution guidelines](.github/CONTRIBUTING.md) first. If you see a package or project here that is no longer maintained or is not a good fit, please submit a pull request to improve this file. Thank you to all [contributors](https://github.com/matteocrippa/awesome-kotlin-multiplatform/graphs/contributors); you rock!!",
+  "categories": [
+    {
       "title": "Guides",
       "id": "guides",
       "description": "An awesome list of Kotlin Multiplatform related guides."
-    }],
-    "projects": [
-        {
-          "title": "Official Guide",
-              "category": "guides",
-              "description": "The reference guide for Kotlin Multiplatform Mobile development by Jetbrains",
-              "homepage": "https://kotlinlang.org/lp/mobile/"
-        }
-    ]
+    },
+    {
+      "title": "Dependency Injection",
+      "id": "di",
+      "description": "DI related libraries."
+    },
+    {
+      "title": "Database",
+      "id": "database",
+      "description": "Database related libraries."
+    },
+    {
+      "title": "Extension",
+      "id": "extension",
+      "description": "Extensions helpers libraries."
+    },
+    {
+      "title": "Reactive programming",
+      "id": "reactive",
+      "description": "Reactive programming libraries."
+    },
+    {
+      "title": "Architecture",
+      "id": "architecture",
+      "description": "Architecture libraries."
+    },
+    {
+      "title": "Testing",
+      "id": "testing",
+      "description": "Testing related libraries."
+    },
+    {
+      "title": "Routing",
+      "id": "routing",
+      "description": "Routing related libraries."
+    },
+    {
+      "title": "UI",
+      "id": "ui",
+      "description": "UI related libraries."
+    },
+    {
+      "title": "Network",
+      "id": "network",
+      "description": "Network related libraries."
+    },
+    {
+      "title": "Logging",
+      "id": "logging",
+      "description": "Logging related libraries."
+    },
+    {
+      "title": "Bluetooth",
+      "id": "bluetooth",
+      "description": "Bluetooth related libraries."
+    },
+    {
+      "title": "Serializer",
+      "id": "serializer",
+      "description": "Serializer related libraries."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Official Guide",
+      "category": "guides",
+      "description": "The reference guide for Kotlin Multiplatform Mobile development by Jetbrains",
+      "homepage": "https://kotlinlang.org/lp/mobile/"
+    },
+    {
+      "title": "koin",
+      "category": "di",
+      "description": "A pragmatic lightweight dependency injection framework",
+      "homepage": "https://github.com/InsertKoinIO/koin"
+    },
+    {
+      "title": "kodein",
+      "category": "di",
+      "description": " Painless Kotlin Dependency Injection ",
+      "homepage": "https://github.com/Kodein-Framework/Kodein-DI"
+    },
+    {
+      "title": "sqldelight",
+      "category": "database",
+      "description": "Generates typesafe Kotlin APIs from SQL",
+      "homepage": "https://github.com/cashapp/sqldelight"
+    },
+    {
+      "title": "Splitties",
+      "category": "extension",
+      "description": "A collection of hand-crafted extensions for your Kotlin projects.",
+      "homepage": "https://github.com/LouisCAD/Splitties"
+    },
+    {
+      "title": "Reaktive",
+      "category": "reactive",
+      "description": "Kotlin multi-platform implementation of Reactive Extensions.",
+      "homepage": "https://github.com/badoo/Reaktive"
+    },
+    {
+      "title": "Moko MVVM",
+      "category": "architecture",
+      "description": "Model-View-ViewModel architecture components for mobile (android & ios) Kotlin Multiplatform development.",
+      "homepage": "https://github.com/icerockdev/moko-mvvm"
+    },
+    {
+      "title": "Atrium",
+      "category": "testing",
+      "description": " A multiplatform assertion library for Kotlin.",
+      "homepage": "https://github.com/robstoll/atrium"
+    },
+    {
+      "title": "Realm Kotlin",
+      "category": "database",
+      "description": "Kotlin Multiplatform and Android SDK for the Realm Mobile Database",
+      "homepage": "https://github.com/realm/realm-kotlin"
+    },
+    {
+      "title": "Kissme",
+      "category": "database",
+      "description": "Kotlin Secure Storage Multiplatform.",
+      "homepage": "https://github.com/netguru/Kissme"
+    },
+    {
+      "title": "Kompass",
+      "category": "routing",
+      "description": "Kotlin Multiplatform Router for Android and iOS.",
+      "homepage": "https://github.com/sellmair/kompass"
+    },
+    {
+      "title": "Multiplatform Compose",
+      "category": "ui",
+      "description": "A Kotlin library to use Jetpack Compose in Android and iOS. Allow to write UI for both in Kotin.",
+      "homepage": "https://github.com/cl3m/multiplatform-compose"
+    },
+    {
+      "title": "MVI Kotlin",
+      "category": "architecture",
+      "description": "Extendable MVI framework for Kotlin Multiplatform.",
+      "homepage": "https://github.com/arkivanov/MVIKotlin"
+    },
+    {
+      "title": "Multiplatform Settings",
+      "category": "database",
+      "description": "A Kotlin Multiplatform library for saving simple key-value data.",
+      "homepage": "https://github.com/russhwolf/multiplatform-settings"
+    },
+    {
+      "title": "Ktor",
+      "category": "network",
+      "description": "Framework for quickly creating connected applications in Kotlin with minimal effort.",
+      "homepage": "https://github.com/ktorio/ktor"
+    },
+    {
+      "title": "Napier",
+      "category": "logging",
+      "description": "Logging library for Kotlin Multiplatform.",
+      "homepage": "https://github.com/AAkira/Napier"
+    },
+    {
+      "title": "RSocket Kotlin",
+      "category": "network",
+      "description": "RSocket Kotlin multi-platform implementation.",
+      "homepage": "https://github.com/rsocket/rsocket-kotlin"
+    },
+    {
+      "title": "KVault",
+      "category": "database",
+      "description": "Secure key-value storage for Kotlin Multiplatform projects.",
+      "homepage": "https://github.com/Liftric/KVault"
+    },
+    {
+      "title": "Kermit",
+      "category": "logging",
+      "description": "A Kotlin Multiplatform centralized logging utility.",
+      "homepage": "https://github.com/touchlab/Kermit"
+    },
+    {
+      "title": "Blue Falcon",
+      "category": "bluetooth",
+      "description": "A Bluetooth kotlin multiplatform library for iOS and Android.",
+      "homepage": "https://github.com/Reedyuk/blue-falcon"
+    },
+    {
+      "title": "Blue Falcon",
+      "category": "bluetooth",
+      "description": "A Bluetooth kotlin multiplatform library for iOS and Android.",
+      "homepage": "https://github.com/Reedyuk/blue-falcon"
+    },
+    {
+      "title": "Apollo",
+      "category": "networking",
+      "description": "A strongly-typed, caching GraphQL client for the JVM, Android, and Kotlin multiplatform.",
+      "homepage": "https://github.com/apollographql/apollo-android"
+    },
+    {
+      "title": "Cache4k",
+      "category": "database",
+      "description": "In-memory Cache for Kotlin Multiplatform.",
+      "homepage": "https://github.com/ReactiveCircus/cache4k"
+    },
+    {
+      "title": "SQLiter",
+      "category": "database",
+      "description": "Minimal multiplatform sqlite library.",
+      "homepage": "https://github.com/touchlab/SQLiter"
+    },
+    {
+      "title": "Cabret Log",
+      "category": "logging",
+      "description": "Method call logging for Kotlin Multiplatform.",
+      "homepage": "https://github.com/Foso/Cabret-Log"
+    },
+    {
+      "title": "Kodein DB",
+      "category": "database",
+      "description": "Multiplatform NoSQL database.",
+      "homepage": "https://github.com/Kodein-Framework/Kodein-DB"
+    },
+    {
+      "title": "Kotlinx.serialization",
+      "category": "serializer",
+      "description": "Kotlin multiplatform / multi-format serialization.",
+      "homepage": "https://github.com/Kotlin/kotlinx.serialization"
+    },
+    {
+      "title": "Kotest",
+      "category": "testing",
+      "description": "Powerful, elegant and flexible test framework for Kotlin with additional assertions, property testing and data driven testing.",
+      "homepage": "https://github.com/kotest/kotest"
+    }
+  ]
 }
