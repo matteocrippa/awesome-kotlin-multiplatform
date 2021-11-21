@@ -302,12 +302,6 @@
       "category": "image",
       "description": "Korim: Kotlin cORoutines IMaging, Bitmap and Vector graphics for Multiplatform Kotlin.",
       "homepage": "https://github.com/korlibs/korim"
-    },
-    {
-      "title": "Korim",
-      "category": "audio",
-      "description": "Korim: Kotlin cORoutines IMaging, Bitmap and Vector graphics for Multiplatform Kotlin.",
-      "homepage": "https://github.com/korlibs/korim"
     }
   ]
 }
