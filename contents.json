@@ -19,6 +19,18 @@
       "description": "Database related libraries."
     },
     {
+      "title": "NoSQL",
+      "id": "nosql",
+      "parent": "database",
+      "description": "NoSQL related libraries."
+    },
+    {
+      "title": "SQL",
+      "id": "sql",
+      "parent": "database",
+      "description": "SQL related libraries."
+    },
+    {
       "title": "Extension",
       "id": "extension",
       "description": "Extensions helpers libraries."
@@ -59,14 +71,37 @@
       "description": "Logging related libraries."
     },
     {
+      "title": "Hardware",
+      "id": "hardware",
+      "description": "Hardware related libraries."
+    },
+    {
       "title": "Bluetooth",
       "id": "bluetooth",
+      "parent": "hardware",
       "description": "Bluetooth related libraries."
     },
     {
       "title": "Serializer",
       "id": "serializer",
       "description": "Serializer related libraries."
+    },
+    {
+      "title": "Media",
+      "id": "media",
+      "description": "Media related libraries."
+    },
+    {
+      "title": "Image",
+      "id": "image",
+      "parent": "media",
+      "description": "Image related libraries."
+    },
+    {
+      "title": "Audio",
+      "id": "audio",
+      "parent": "media",
+      "description": "Audio related libraries."
     }
   ],
   "projects": [
@@ -90,7 +125,7 @@
     },
     {
       "title": "sqldelight",
-      "category": "database",
+      "category": "sql",
       "description": "Generates typesafe Kotlin APIs from SQL",
       "homepage": "https://github.com/cashapp/sqldelight"
     },
@@ -120,7 +155,7 @@
     },
     {
       "title": "Realm Kotlin",
-      "category": "database",
+      "category": "nosql",
       "description": "Kotlin Multiplatform and Android SDK for the Realm Mobile Database",
       "homepage": "https://github.com/realm/realm-kotlin"
     },
@@ -204,7 +239,7 @@
     },
     {
       "title": "SQLiter",
-      "category": "database",
+      "category": "sql",
       "description": "Minimal multiplatform sqlite library.",
       "homepage": "https://github.com/touchlab/SQLiter"
     },
@@ -216,7 +251,7 @@
     },
     {
       "title": "Kodein DB",
-      "category": "database",
+      "category": "nosql",
       "description": "Multiplatform NoSQL database.",
       "homepage": "https://github.com/Kodein-Framework/Kodein-DB"
     },
@@ -231,6 +266,42 @@
       "category": "testing",
       "description": "Powerful, elegant and flexible test framework for Kotlin with additional assertions, property testing and data driven testing.",
       "homepage": "https://github.com/kotest/kotest"
+    },
+    {
+      "title": "Kable",
+      "category": "bluetooth",
+      "description": "Kotlin Asynchronous Bluetooth Low-Energy.",
+      "homepage": "https://github.com/juullabs/kable"
+    },
+    {
+      "title": "MockingBird",
+      "category": "testing",
+      "description": "A Koltin multiplatform library that provides an easier way to mock and write unit tests for a multiplatform project.",
+      "homepage": "https://github.com/careem/mockingbird"
+    },
+    {
+      "title": "Konform",
+      "category": "testing",
+      "description": "Portable validations for Kotlin.",
+      "homepage": "https://github.com/konform-kt/konform"
+    },
+    {
+      "title": "mockk",
+      "category": "testing",
+      "description": "Mocking library for Kotlin.",
+      "homepage": "https://github.com/mockk/mockk"
+    },
+    {
+      "title": "PopKorn",
+      "category": "di",
+      "description": "DI can be simple. Forget about modules and components.",
+      "homepage": "https://github.com/corbella83/PopKorn"
+    },
+    {
+      "title": "Korim",
+      "category": "image",
+      "description": "Korim: Kotlin cORoutines IMaging, Bitmap and Vector graphics for Multiplatform Kotlin.",
+      "homepage": "https://github.com/korlibs/korim"
     }
   ]
 }
