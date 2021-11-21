@@ -14,19 +14,19 @@ PLEASE DO NOT UPDATE THIS FILE, UPDATE CONTENTS.JSON INSTEAD. THANK YOU :-)
 
 ### Contents
 
-- [Guides](#guides)
-- [Dependency Injection](#di)
-- [Database](#database)
-- [Extension](#extension)
-- [Reactive programming](#reactive)
 - [Architecture](#architecture)
-- [Testing](#testing)
-- [Routing](#routing)
-- [UI](#ui)
-- [Network](#network)
-- [Logging](#logging)
 - [Bluetooth](#bluetooth)
+- [Database](#database)
+- [Dependency Injection](#di)
+- [Extension](#extension)
+- [Guides](#guides)
+- [Logging](#logging)
+- [Network](#network)
+- [Reactive programming](#reactive)
+- [Routing](#routing)
 - [Serializer](#serializer)
+- [Testing](#testing)
+- [UI](#ui)
 
 ## Architecture
 *Architecture libraries.* 
