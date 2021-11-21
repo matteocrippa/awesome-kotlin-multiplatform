@@ -43,7 +43,7 @@ def output_content(j)
   projects = j['projects']
 
   parents, children = j['categories'].partition { |c| c['parent'].nil? }
-  parents.each do |c|
+  parents.sort_by {|k,v| k['id']}.each do |c|
     id = c['id']
     toc << output_content_category(c, 2)
     toc << output_projects(projects, id)

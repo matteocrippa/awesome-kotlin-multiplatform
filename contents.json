@@ -191,12 +191,6 @@
       "homepage": "https://github.com/Reedyuk/blue-falcon"
     },
     {
-      "title": "Blue Falcon",
-      "category": "bluetooth",
-      "description": "A Bluetooth kotlin multiplatform library for iOS and Android.",
-      "homepage": "https://github.com/Reedyuk/blue-falcon"
-    },
-    {
       "title": "Apollo",
       "category": "networking",
       "description": "A strongly-typed, caching GraphQL client for the JVM, Android, and Kotlin multiplatform.",
