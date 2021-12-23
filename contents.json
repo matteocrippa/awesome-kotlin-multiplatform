@@ -302,6 +302,12 @@
       "category": "image",
       "description": "Korim: Kotlin cORoutines IMaging, Bitmap and Vector graphics for Multiplatform Kotlin.",
       "homepage": "https://github.com/korlibs/korim"
+    },
+    {
+      "title": "Moko Widgets",
+      "category": "ui",
+      "description": "Multiplatform UI DSL with screen management in common code for mobile.",
+      "homepage": "https://github.com/icerockdev/moko-widgets"
     }
   ]
 }
