@@ -10,7 +10,7 @@ PLEASE DO NOT UPDATE THIS FILE, UPDATE CONTENTS.JSON INSTEAD. THANK YOU :-)
 
 | Awesome | Projects | Updated
 | :-: | :-: | :-:
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) | 33 | November 21, 2021
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) | 34 | December 23, 2021
 
 ### Contents
 
@@ -90,6 +90,7 @@ PLEASE DO NOT UPDATE THIS FILE, UPDATE CONTENTS.JSON INSTEAD. THANK YOU :-)
 
 ## UI
 *UI related libraries.* 
+* [Moko Widgets](https://github.com/icerockdev/moko-widgets) - Multiplatform UI DSL with screen management in common code for mobile.
 * [Multiplatform Compose](https://github.com/cl3m/multiplatform-compose) - A Kotlin library to use Jetpack Compose in Android and iOS. Allow to write UI for both in Kotin.
 
 ## Network
